@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Login from "./Login";
 
 export default function Navbar() {
   const [sticky, setSticky] = useState(false);
@@ -126,9 +127,13 @@ export default function Navbar() {
             </svg>
           </label>
           <div className="">
-            <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">
+            <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300 cursor-pointer"
+             onClick={() =>
+              document.getElementById("my_modal_3").showModal()
+             }>
               Login
             </a>
+            <Login />
           </div>
         </div>
       </div>
