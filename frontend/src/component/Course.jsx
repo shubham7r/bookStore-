@@ -20,22 +20,17 @@ function Course() {
             assumenda sint quibusdam, perspiciatis, explicabo sequi fugiat amet
             animi eos aut. Nobis quisquam reiciendis sunt quis sed magnam
             consequatur! whats
-
           </p>
-         
-            <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
-              Back
-            </button>
-          
+
+          <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
+            Back
+          </button>
         </div>
-        <div>
-          {
-            list.map((item)=>(
-            <Cards key={item.id} item={item}/>
-            ))
-          }
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-4">
+          {list.map((item) => (
+            <Cards key={item.id} item={item} />
+          ))}
         </div>
-     
       </div>
     </>
   );
