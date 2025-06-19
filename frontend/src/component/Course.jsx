@@ -28,6 +28,13 @@ function Course() {
             </button>
           
         </div>
+        <div>
+          {
+            list.map((item)=>(
+            <Cards key={item.id} item={item}/>
+            ))
+          }
+        </div>
      
       </div>
     </>
