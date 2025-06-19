@@ -31,7 +31,8 @@ function Course() {
             quas quidem nesciunt debitis dolore non aspernatur praesentium
             assumenda sint quibusdam, perspiciatis, explicabo sequi fugiat amet
             animi eos aut. Nobis quisquam reiciendis sunt quis sed magnam
-            consequatur!
+            consequatur! whats
+
           </p>
           <Link to="/">
             <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
